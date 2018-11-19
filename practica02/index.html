@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Manual de Java</title>
+    <link rel="stylesheet" href="css/principal.css">
+</head>
+<body>
+<blockquote cite="http://www.frasesypensamientos.com.ar/autor/edsger-dijkstra.html">
+    Si la depuración es el proceso de eliminar errores, entonces la programación debe ser el proceso de introducirlos.
+    <br>
+    <strong>Edsger Dijkstra</strong>
+</blockquote >
+<blockquote cite="http://www.frasesypensamientos.com.ar/autor/niklaus-wirth.html">
+    La experiencia demuestra que el éxito de un curso de programación depende críticamente de la elección de los ejemplos que se utilice.
+    <br>
+    <strong>Niklaus Wirdth</strong>
+</blockquote>
+<h1>¿Cómo escribir código en Java
+    <small>Empezando</small>
+</h1>
+<h2>El primer programa en Java</h2>
+<pre><code>
+public class PrimerPrograma
+{
+    public static void main(String[] args)
+    {
+        System.out.println("¡Mi primer programa!");
+    }
+}
+</code></pre>
+<p>
+    Este código escribe <samp>¡Mi primer programa!</samp> en la pantalla.
+</p>
+<p>
+    La línea <code>public class PrimerPrograma</code> declara la clase a la que pertenece el programa
+</p>
+<p>
+    La línea public <code>static void main(String[] args)</code> sirve para indicar el inicio del método principal.
+</p>
+<p>
+    El código <code>System.out.println("¡Mi primer programa!");</code> es el que realmente escribe en pantalla</p>
+
+<p>Además, el archivo tiene que llamarse obligatoriamente <strong>PrimerPrograma.java</strong> ya que el nombre del programa (en
+    realidad el nombre de la clase) y el del archivo deben coincidir.</p>
+<p>Por último, aunque no es obligatorio, es más que aconsejable que el nombre del programa comience con una letra
+    mayúscula y le sigan letras en minúsculas. Si consta de varias palabras no pueden utilizarse espacios en blanco, por
+    lo que se suelen juntar las palabras poniendo cada inicial de la palabra en mayúsculas.</p>
+<p>Éste tipo de reglas no obligatorias sino aconsejables (como por ejemplo el hecho de que las instrucciones interiores
+    a un bloque dejen espacio a su izquierda) producen un código más legible y sobre todo hace que todos los
+    programadores del planeta adoptemos la misma forma de escribir, simplificando el entendimiento del código.</p>
+<h2>¿Cómo compilar programas en Java?</h2>
+<p>La compilación del código java se realiza mediante el programa <strong>javac</strong> incluido en el software de
+    desarrollo de Java (el
+    <abbr title="Software Developer Kit">SDK</abbr>). La forma de compilar es (desde la línea de comandos):</p>
+<pre><code>
+<strong>javac</strong> archivo.java
+</code></pre>
+<p>Si el programa es ejecutable (sólo lo son si contienen el método main), el código se puede interpretar usando el
+    programa java del kit de desarrollo (que se encuentra en el mismo sitio que javac). Sintaxis:</p>
+<pre><code>
+<strong>java</strong> archivoClass
+</code></pre>
+<h1 id="sublime">Uso del editor <em>Sublime Text</em></h1>
+<p>
+    <strong>Sublime Text </strong> es un editor de texto multipropósito que se puede descargar de Internet. Aunque es de pago, permite su uso gratuito.
+</p>
+<h2>Teclas interesantes</h2>
+<p><kbd>Ctrl+A</kbd> Selecciona todo el texto del documento</p>
+<p><kbd>Ctrl+D</kbd> Busca la siguiente palabra igual a la selección y la añade</p>
+<p><kbd>Ctrl+Mayus+D</kbd> Retira la última palabra de la selección</p>
+
+<address>
+    Fondo diseñado por <strong>Kjpargeter / Freepik</strong> <br>
+    Textos de los lenguajes extraidos de la <strong>Wikipedia</strong>
+</address>
+<script src="js/jquery.js"></script>
+<script src="js/acciones.js"></script>
+</body>
+</html>

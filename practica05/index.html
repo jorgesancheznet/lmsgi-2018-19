@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejemplos de medios</title>
+</head>
+<body>
+<h1>Imagen intercambiable <em>SVG</em></h1>
+<picture>
+    <source srcset="img/monitor.svg" media="(min-width:1200px)">
+    <source srcset="img/portatil.svg" media="(min-width:800px)">
+    <img src="img/smartphone.svg" alt="Medios">
+</picture>
+<h1>Imagen en dos formatos</h1>
+<picture>
+    <source srcset="img/vietnam.webp" type="image/webp">
+    <img src="img/vietnam.jpg" alt="Vietnam" width="600">
+</picture>
+<h1>Ecuación</h1>
+<math style="display: block;"> <mtable columnalign="right center left"> <mtr> <mtd> <msup> <mrow> <mo> ( </mo> <mi> a </mi> <mo> + </mo> <mi> b </mi> <mo> ) </mo> </mrow> <mn> 2 </mn> </msup> </mtd> <mtd> <mo> = </mo> </mtd> <mtd> <msup><mi> c </mi><mn>2</mn></msup> <mo> + </mo> <mn> 4 </mn> <mo> ⋅ </mo> <mo>(</mo> <mfrac> <mn> 1 </mn> <mn> 2 </mn> </mfrac> <mi> a </mi><mi> b </mi> <mo>)</mo>                               </mtd> </mtr> <mtr> <mtd> <msup><mi> a </mi><mn>2</mn></msup> <mo> + </mo> <mn> 2 </mn><mi> a </mi><mi> b </mi> <mo> + </mo> <msup><mi> b </mi><mn>2</mn></msup> </mtd> <mtd> <mo> = </mo> </mtd> <mtd> <msup><mi> c </mi><mn>2</mn></msup> <mo> + </mo> <mn> 2 </mn><mi> a </mi><mi> b</mi></mtd></mtr><mtr><mtd></mtd></mtr><mtr><mtd><msup><mi>a </mi><mn>2</mn></msup> <mo> + </mo> <msup><mi> b </mi><mn>2</mn></msup> </mtd> <mtd> <mo> = </mo> </mtd> <mtd> <msup><mi> c </mi><mn>2</mn></msup> </mtd> </mtr> </mtable> </math>
+<h1>Canvas</h1>
+<canvas id="canvas" width="300" height="300"></canvas>
+<script src="otros/canvas.js"></script>
+<h1>Vídeo en varios formatos y con subtítulos</h1>
+<video controls width="500" poster="video/poster.jpg">
+    <source src="video/saas.ogv" type="video/ogg">
+    <source src="video/saas.webm" type="video/webm">
+    <source src="video/saas.mp4" type="video/mp4">
+    <track src="video/saas-en.vtt" kind="subtitles" srclang="en" label="English">
+    <track src="video/saas-es.vtt" kind="subtitles" srclang="es" label="Spanish">
+</video>
+<h1>Audio (suena automáticamente en segundo plano)</h1>
+<audio controls autoplay>
+    <source src="audio/cancion.mp2" type="audio/mpeg">
+    <source src="audio/cancion.aiff" type="audio/aiff">
+    <source src="audio/cancion.mp3" type="audio/mp3">
+</audio>
+<h1>Créditos</h1>
+<p>Iconos fabricados por <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
+<p>Foto de <a href="https://unsplash.com/photos/9xp0AWvlGC4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Zeyn Afuang</a> enb <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+<p>Animación copiada de la página de ayuda sobre la etiqueta canvas <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_animations"> Fundación Mozilla</a></p>
+<p>Vídeo sobre SaaS perteneciente al curso <em>Engineering Software as a Service</em> de la <strong>Universidad de Berkley</strong></p>
+<p>Canción <em>The Lonely Doll</em> de <strong>Case McCombs</strong></p>
+
+
+
+</body>
+</html>

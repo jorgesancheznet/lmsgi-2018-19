@@ -1,0 +1,1 @@
+$(function(){$("blockquote").on("mouseover",function(o){original=$(this).html(),$(this).css({"background-color":"#D2D918",cursor:"pointer","text-decoration":"underline"})}).on("mouseout",function(o){$(this).css({"background-color":"#d9d4bb","text-decoration":"none"})}).on("click",function(o){window.location=$(this).attr("cite")})});

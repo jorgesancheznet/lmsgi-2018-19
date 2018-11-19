@@ -1,0 +1,252 @@
+WEBVTT
+
+1
+00:00:00.018 --> 00:00:04.061
+Softwares and service, this is an
+extraordinarily popular topic and we'll
+
+2
+00:00:04.061 --> 00:00:09.071
+talk about why it's popular and what it
+means for us. Traditional software is you
+
+3
+00:00:09.071 --> 00:00:14.058
+know, binary, it's installed and runs on
+the client device. Softwares and service
+
+4
+00:00:14.058 --> 00:00:19.076
+is, not only the software but the data is
+delivered over the internet via thin
+
+5
+00:00:19.076 --> 00:00:24.056
+program on your local client device.
+Searching, social networking, YouTube
+
+6
+00:00:24.056 --> 00:00:29.056
+videos are a good examples of that. And
+this has become so popular that
+
+7
+00:00:29.056 --> 00:00:34.061
+traditional, you know, shrink wrap
+software now has. Fast versions of it so
+
+8
+00:00:34.061 --> 00:00:38.048
+Microsoft Office, that's an essential
+product, now has Microsoft Office 365.
+
+9
+00:00:38.048 --> 00:00:42.030
+Turbo Tax those, when you start paying
+taxes, [laugh] you have to buy this
+
+10
+00:00:42.030 --> 00:00:46.017
+software, so I said, why do that, why
+don't we just use an online service? So
+
+11
+00:00:46.017 --> 00:00:50.015
+this is happening. Armando and I think
+that this a revolution in software. We
+
+12
+00:00:50.015 --> 00:00:53.097
+think that by the end of this decade,
+virtually all software will be as a
+
+13
+00:00:53.097 --> 00:00:58.010
+service versus all software is shrink
+wrapped and you install. So that's what we
+
+14
+00:00:58.010 --> 00:01:02.034
+think's going on. It will be a piece that
+will be on your client, and piece in the
+
+15
+00:01:02.034 --> 00:01:06.090
+cloud and that will be the normal way that
+you do things. I think this is a big deal.
+
+16
+00:01:06.090 --> 00:01:11.058
+So why is this happening? First of all for
+the user you don't have to see if he has
+
+17
+00:01:11.058 --> 00:01:15.069
+the right version of the operating system,
+right version of the hardware. You just
+
+18
+00:01:15.069 --> 00:01:19.055
+have to have a thin thing maybe just a
+browser that works. You don't have to
+
+19
+00:01:19.055 --> 00:01:23.056
+worry about data loss. Oh my god are we
+backing up our laptop. Did that work? Did
+
+20
+00:01:23.056 --> 00:01:27.037
+I remember to do it? Oh I lost my cell
+phone up, the data is in the cloud. So
+
+21
+00:01:27.037 --> 00:01:31.028
+it's okay. If you are gonna actually
+share, you know a [inaudible] we can work
+
+22
+00:01:31.028 --> 00:01:35.039
+on it, you should keep the data in the
+cloud not on the individual devices that's
+
+23
+00:01:35.039 --> 00:01:40.003
+a big hassle. If the data itself is large
+or changes frequently, it makes more sense
+
+24
+00:01:40.003 --> 00:01:44.029
+to just have the copy in the cloud, rather
+than having it, trying to keep a copy in
+
+25
+00:01:44.029 --> 00:01:49.065
+there, all the clients. So I, for
+developers it?s got a really cool feature.
+
+26
+00:01:49.082 --> 00:01:54.061
+You don't have to go through a phase to
+make sure it runs on all the versions of
+
+27
+00:01:54.061 --> 00:01:59.051
+species and all the various versions of
+operating systems. It's one location. And
+
+28
+00:01:59.051 --> 00:02:03.082
+you get to pick the hardware and the
+environment. So, it's much easier for
+
+29
+00:02:03.082 --> 00:02:08.043
+software developers. As a result this
+makes it, the single copy makes it really
+
+30
+00:02:08.043 --> 00:02:12.096
+easy to do upgrades. And, and from the
+years of perspective you know, I've got
+
+31
+00:02:12.096 --> 00:02:17.067
+all these annoying request of, to get
+permission upgraded right. Seems like it's
+
+32
+00:02:17.067 --> 00:02:22.050
+Adobe's business model that every time
+they make a little tweak they asked me if
+
+33
+00:02:22.050 --> 00:02:27.015
+they can upgrade it so I can remember that
+Adobe is supplying Adobe reader or
+
+34
+00:02:27.015 --> 00:02:31.097
+something. But so this. No hassles upgrade
+and simplified upgrades for developers
+
+35
+00:02:31.097 --> 00:02:36.027
+means what? It means the [inaudible]
+service gets changed all the time gets
+
+36
+00:02:36.027 --> 00:02:40.062
+upgraded all the time so, the velocity of
+change for [inaudible] services is
+
+37
+00:02:40.062 --> 00:02:45.050
+tremendously faster then when you
+[inaudible] software. So, this is a
+
+38
+00:02:45.050 --> 00:02:50.087
+perfect match to Agile and Rails softwares
+and service. The frequent upgrades, right,
+
+39
+00:02:50.087 --> 00:02:55.092
+every two weeks you're doing iteration,
+boy, that matches softwares and service,
+
+40
+00:02:55.092 --> 00:03:01.023
+so as a result there's a lot of frameworks
+for agile and for SAS because that's a
+
+41
+00:03:01.023 --> 00:03:06.028
+powerful combination in the future of
+software. We use Ruby on rails, is the
+
+42
+00:03:06.028 --> 00:03:11.032
+official name, its nickname is rails. Why,
+Ruby is a modern scripting language. It's
+
+43
+00:03:11.032 --> 00:03:15.038
+got, its object oriented, it has
+functional programming, auto [inaudible].
+
+44
+00:03:15.038 --> 00:03:19.089
+All the ideas, all the advances that I put
+on that slide, they're in here in this
+
+45
+00:03:19.089 --> 00:03:24.023
+language. And, Rails, itself, is a very
+popular, there's lots of examples, very
+
+46
+00:03:24.023 --> 00:03:28.080
+popular. Many of you use Twitter. That all
+runs on top of Rails, so. It's an example
+
+47
+00:03:28.080 --> 00:03:33.025
+of, [inaudible], you know, a very tasteful
+choice in a programming language. It
+
+48
+00:03:33.025 --> 00:03:37.082
+wasn't a very popular language, but it was
+a artistic success. And this Rails is a
+
+49
+00:03:37.082 --> 00:03:42.001
+dramatically power environment. So we
+think that this is, by far. The best of
+
+50
+00:03:42.001 --> 00:03:45.093
+the Sass agile development ones and that's
+what we're using in this class.
+
